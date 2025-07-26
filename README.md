@@ -4,6 +4,12 @@
 ## Overview
 This repository implements a novel approach to wildfire risk prediction by integrating **behavioral and social data** with traditional environmental factors. It demonstrates how human activity patterns, social media signals, and emergency response data can improve fire ignition risk assessment in wildland-urban interface (WUI) communities.
 
+## Motiviation
+- Balch, J.K., et al. (2017). Human-started wildfires expand the fire niche across the United States. *Proceedings of the National Academy of Sciences*, 114(11), 2946-2951.
+- Syphard, A.D., et al. (2017). Human presence diminishes the importance of climate in driving fire activity across the United States. *Proceedings of the National Academy of Sciences*, 114(52), 13750-13755.
+- Radeloff, V.C., et al. (2018). Rapid growth of the US wildland-urban interface raises wildfire risk. *Proceedings of the National Academy of Sciences*, 115(13), 3314-3319.
+- Mann, M.L., et al. (2016). Incorporating anthropogenic influences into fire probability models. *PLoS One*, 11(4), e0153589.
+
 ### Interesting Aspects
 - **Multi-modal data integration**: Combines drone deployment indicators, TV news coverage, social media activity, and traditional meteorological data
 - **Hybrid CNN-LSTM architecture**: Captures both spatial and temporal patterns in fire risk
@@ -193,7 +199,7 @@ Environmental Features (18):
 
 ---
 
-## Results
+## Mock Results (Not Real)
 
 ### Model Performance Comparison
 | Model | Accuracy | Precision | Recall | F1-Score |
@@ -205,13 +211,13 @@ Environmental Features (18):
 | LSTM-only | 69.9% | 77.1% | 66.0% | 54.1% |
 | CNN-only | 64.4% | 24.0% | 33.3% | 27.9% |
 
-### Key Findings
+### Mock Key Findings (Not Real)
 - **16% improvement** over environmental-only models
 - **92% accuracy** in wildland-urban interface zones
 - **8.3-hour average** prediction lead time
 - **SHAP analysis** reveals recreation density as strongest predictor (0.24)
 
-### Geographic Performance
+### Mock Geographic Performance (Not Real)
 - **WUI Zones**: 92% accuracy (highest risk areas)
 - **Coastal Regions**: 87% accuracy (tourism-driven patterns)
 - **Inland Agriculture**: 89% accuracy (seasonal work cycles)
@@ -220,7 +226,6 @@ Environmental Features (18):
 ---
 
 ## Academic Context
-
 This repository accompanies research on integrating behavioral and social data for wildfire risk prediction. The work builds upon existing literature in fire science, machine learning, and human-fire interaction studies.
 
 ### Related Research Areas
@@ -228,12 +233,6 @@ This repository accompanies research on integrating behavioral and social data f
 - Social media and digital footprint analysis for emergency management
 - Deep learning applications in environmental risk assessment
 - Wildland-urban interface fire behavior and risk modeling
-
-### Key References
-- Balch, J.K., et al. (2017). Human-started wildfires expand the fire niche across the United States. *Proceedings of the National Academy of Sciences*, 114(11), 2946-2951.
-- Syphard, A.D., et al. (2017). Human presence diminishes the importance of climate in driving fire activity across the United States. *Proceedings of the National Academy of Sciences*, 114(52), 13750-13755.
-- Radeloff, V.C., et al. (2018). Rapid growth of the US wildland-urban interface raises wildfire risk. *Proceedings of the National Academy of Sciences*, 115(13), 3314-3319.
-- Mann, M.L., et al. (2016). Incorporating anthropogenic influences into fire probability models. *PLoS One*, 11(4), e0153589.
 
 ### Methodology Framework
 ```
