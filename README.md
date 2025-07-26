@@ -16,7 +16,7 @@ This repository implements a novel approach to wildfire risk prediction by integ
 - **Operational framework**: Provides actionable intelligence for fire prevention resource allocation
 
 #### Study Area [Mock - Not Real Map]
-![San Luis Obispo County Map](images/study_area_map.png)
+![San Luis Obispo County Map](slo_county_study_area.png)
 
 #### Results Visualization  [Mock - Not Real Results]
 ![Risk Classification Results](images/risk_analysis_results.png)
