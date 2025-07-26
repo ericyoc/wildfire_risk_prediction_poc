@@ -19,7 +19,7 @@ This repository implements a novel approach to wildfire risk prediction by integ
 ![San Luis Obispo County Map](slo_county_study_area.png)
 
 #### Results Visualization  [Mock - Not Real Results]
-![Risk Classification Results](images/risk_analysis_results.png)
+![Risk Classification Results](figure_2_risk_analysis_results.png)
 
 ## Features
 ### Advanced Machine Learning Models
