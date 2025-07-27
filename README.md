@@ -4,7 +4,7 @@
 ## Overview
 This repository implements a novel approach to wildfire risk prediction by integrating **behavioral and social data** with traditional environmental factors. It demonstrates how human activity patterns, social media signals, and emergency response data can improve fire ignition risk assessment in wildland-urban interface (WUI) communities.
 
-## Motiviation
+## Motivating Research
 - Balch, J.K., et al. (2017). Human-started wildfires expand the fire niche across the United States. *Proceedings of the National Academy of Sciences*, 114(11), 2946-2951.
 - Syphard, A.D., et al. (2017). Human presence diminishes the importance of climate in driving fire activity across the United States. *Proceedings of the National Academy of Sciences*, 114(52), 13750-13755.
 - Radeloff, V.C., et al. (2018). Rapid growth of the US wildland-urban interface raises wildfire risk. *Proceedings of the National Academy of Sciences*, 115(13), 3314-3319.
